@@ -24,12 +24,12 @@ header span {
     background: #fafaff;
     height: 1024px;
     padding: 60px 0px;
+    height: 100%;
 }
 
 .main-title {
     font-weight: 700;
     font-size: 48px;
-    margin-bottom: 20px;
 }
 
 .main-text {
@@ -38,7 +38,7 @@ header span {
 }
 
 .main-image {
-    width: 715px;
+    max-width: none;
     height: 508px;
 }
 
@@ -57,7 +57,7 @@ select {
     font-weight: 400;
     font-size: 16px;
     padding: 10px 0px;
-    background: url(/2-hw-with-auto-test-html-css-main/ep_arrow-down.svg) no-repeat right 12px top 50%;
+    background: url(/ep_arrow-down.svg) no-repeat right 12px top 50%;
     appearance: none;
     fill: rgba(48, 48, 48, 0.8);
 }
@@ -71,12 +71,13 @@ select {
 .frameworks-list {
     font-weight: 400;
     font-size: 16px;
-    list-style-image: url(/2-hw-with-auto-test-html-css-main/solar_map-arrow-up-bold.svg);
-    padding-left: 20px;
+    list-style-image: url(/solar_map-arrow-up-bold.svg);
+    padding: 0px 0px 0px 20px;
 }
 
 .books-list {
     width: 670px;
+    padding: 0px;
 }
 
 .label {
@@ -115,6 +116,7 @@ select {
 table {
     width: 300px;
     height: 196px;
+    font-size: 16px;
     border-collapse: collapse;
 }
 
